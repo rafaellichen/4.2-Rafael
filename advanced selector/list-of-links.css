@@ -1,0 +1,22 @@
+a[href^="https://"] {
+    color: purple;
+}  
+
+a[href^="http://"] {
+    color: blue;
+}
+li:nth-child(2) {
+    font-style: italic;
+}
+li:nth-last-child(2) {
+    font-weight: bold;
+}
+a[href*=".org"] {
+    text-transform: uppercase;
+}
+a[href*="panda"] {
+    background-image: url("cornflower.jpg");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    font-size: 65pt;
+}
