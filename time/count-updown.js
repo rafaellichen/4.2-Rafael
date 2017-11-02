@@ -9,7 +9,7 @@ localStorage.setItem("value","1")
 
 setInterval(function() {
     h1number.innerText=(Number(h1number.innerText)+Number(localStorage.getItem("value"))*Number(localStorage.getItem("multiple"))).toString()
-},200)
+},20)
 reverseb.addEventListener("click", e=> {
     if(localStorage.getItem("value")=="1") localStorage.setItem("value","-1")
     else localStorage.setItem("value","1")
