@@ -6,15 +6,10 @@
         <p id="arrow"></p>
     </body>
     <script>
-        localStorage.setItem("length","1")
         var change=document.getElementById("arrow")
+        change.innerText=">"
         setInterval(function() {
-            var text=">"
-            for(var i=0; i<Number(localStorage.getItem("length")); i++) {
-                text="-"+text
-            }
-            localStorage.setItem("length",(Number(localStorage.getItem("length"))+1).toString())
-            change.innerHTML="<p>"+text+"</p>"
+            change.innerText="-"+change.innerText
         },100)
     </script>
 </html>
