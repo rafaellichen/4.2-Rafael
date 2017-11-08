@@ -1,0 +1,17 @@
+/* RAFAEL LI CHEN */
+body {
+    font-family: Nunito;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+#ob, #on {
+    font-size: 11pt;
+}
+
+#nhex, #nbin, #ndec {
+    font-size: 22pt;
+}
+
