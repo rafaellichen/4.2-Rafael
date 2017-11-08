@@ -12,6 +12,7 @@ const ndec = document.getElementById("ndec")
 const nhex = document.getElementById("nhex")
 
 function display(myBlob) {
+    input.value = ""
     on.innerText = "Original Number: "+myBlob.original.value
     ob.innerText = "Original Base: "+myBlob.original.base
     nbin.innerText = "As Binary: "+myBlob.conversions.binary
