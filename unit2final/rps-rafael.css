@@ -1,0 +1,11 @@
+body {
+    background-color: grey;
+    margin: auto;
+    text-align: center;
+    font-family: Bubblegum Sans;    
+}
+
+input, button {
+    font-family: Bubblegum Sans;
+    text-align: center;
+}
