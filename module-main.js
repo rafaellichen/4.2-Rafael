@@ -24,9 +24,9 @@ var reversed = stringModule.reversestr("Rafael")
 console.log(reversed)
 
 function cb(err, files) {
-    if(!err) console.error(err)
+    if(err) console.error(err)
     files.forEach((file) => {
         console.log(file)
     })
 }
-fileModule.search("Events 2", ".css", cb)
+fileModule.search("Events 22", ".css", cb)
