@@ -1,0 +1,24 @@
+a:visited {
+    color: grey;
+}
+a {
+    color: blue;
+    font-size: 30pt;
+}
+a:hover {
+    font-weight: bold;
+    color: green;
+}
+p:nth-of-type(2)::first-line {
+    background-color: pink;
+}
+p::first-line { 
+    font-variant: small-caps;
+}
+img {
+    padding: 25px;
+}
+img:hover {
+    border: 25px solid orange;
+    padding: 0px;
+}
