@@ -1,0 +1,64 @@
+<body>
+    <head>
+        <title>JS Comparison Operators</title>
+    </head>
+    <body>
+        <h1>JS Comparison Operators</h1>
+        <ol>
+            <li>
+                &lt; less than
+            </li>
+            <ul>
+                returns true if the left operand is less than the right operand
+            </ul>
+            <br>
+            <li>
+                &gt; greater than
+            </li>
+            <ul>
+                returns true if the left operand is greater than the right operand
+            </ul>
+            <br>
+            <li>
+                &lt;= less or equal to
+            </li>
+            <ul>
+                return true is the left operand is less or equal to the right operand
+            </ul>
+            <br>
+            <li>
+                &gt;= greater or equal to
+            </li>
+            <ul>
+                return true is the left operand is greater or equal to the right operand
+            </ul>
+            <br>
+            <li>
+                === Strict equality
+            </li>
+            <ul>
+                Strict equality compares two values for equality.
+                <br>Neither value is implicitly converted to some other value before being compared.
+                <br>If the values have different types, the values are considered unequal.
+                <br>Otherwise, if the values have the same type and are not numbers, they're considered equal if they have the same value.
+                <br>Finally, if both values are numbers, they're considered equal if they're both not NaN and are the same value, or if one is +0 and one is -0.
+            </ul>
+            <br>
+            <li>
+                !== not equal value or not equal type
+            </li>
+            <ul>
+                    return true if the operands are not equal and/or not of the same type.
+            </ul>
+        </ol>
+        <br>
+        <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="94.5" height="96" align="left">
+        <pre>
+            function compare(a,b) {
+                if(a>b) console.log(a+" is greater than "+b)
+                else if(a==b) console.log(a+" equals to "+b)
+                else console.log(a+" is less than "+b)
+            }
+        </pre>
+    </body>
+</body>

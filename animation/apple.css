@@ -1,0 +1,17 @@
+img {
+    height: 100px;
+}
+@keyframes apple{
+    from {
+        margin-top: 0;
+    }
+    to {
+        margin-top: 100%;
+    }
+}
+#apple {
+    animation-name: apple;
+    animation-duration: 3s;
+    transition-timing-function: ease;
+    animation-fill-mode: forwards;
+}
